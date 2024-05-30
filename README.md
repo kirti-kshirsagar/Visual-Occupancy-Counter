@@ -3,6 +3,9 @@
 ## Task: 
 People Counter using YOLOv8
 
+## My video input file:
+[Input Video](https://drive.google.com/file/d/1MR3zPqQX2qtoIYyjxgUyE8qr8dLElc-D/view?usp=sharing)
+
 ## Instruction to run the code:
 - Ensure **Python** is installed in your system, or else you can even use Google Colab. I used **Google Colab** with **T4 GPU**.
 - Download the **YOLOv8 model** file *yolov8n.pt* and place it in the same directory as the script.
