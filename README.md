@@ -10,8 +10,10 @@ People Counter using YOLOv8
 - Ensure **Python** is installed in your system, or else you can even use Google Colab. I used **Google Colab** with **T4 GPU**.
 - Download the **YOLOv8 model** file *yolov8n.pt* and place it in the same directory as the script.
 - Place the *video file* you want to process and count the people from in the same directory as the script and rename it to **user_activities.mp4**.
-- Run the script using the following command in your terminal
-    - python people_counter.py
+- Run the script using the following command in your terminal:
+  ```
+     python people_counter.py
+  ```
 - Upon running the script, a JSON file named **activities.json** will contain the output.
 
 ## Dependencies:
@@ -19,9 +21,11 @@ This script depends on the following Python packages and hence need to be instal
 - OpenCV
 - Ultralytics
 
-These can be installed using
-- pip install opencv-python
-- pip install ultralytics
+These can be installed using:
+```
+pip install opencv-python
+pip install ultralytics
+```
 
 ## Approach:
 1. Importing Libraries: The script imports necessary libraries including **cv2** for video processing, **json** for JSON file manipulation, and **YOLO from Ultralytics** for object detection using the YOLOv8 model.
